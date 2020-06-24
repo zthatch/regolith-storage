@@ -1,7 +1,12 @@
-{"groupname": "Thatcher Group",
+{"groupname": "Billinge Group",
  "databases": [
-  {"name": "thatchergroup-public",
-   "url": "../../rg-db-zthatcher/",
+  {"name": "billingegroup-public",
+   "url": "../rg-db-public/",
+   "public": true,
+   "path": "db",
+   "local": true},
+   {"name": "billingegroup-group",
+   "url": "../rg-db-group/",
    "public": true,
    "path": "db",
    "local": true}
